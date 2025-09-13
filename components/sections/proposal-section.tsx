@@ -48,39 +48,43 @@ export function ProposalSection() {
         <Card className="p-6 mb-8">
           <h3 className="text-xl font-semibold mb-6 text-primary">Proposta Preliminar de Atividades</h3>
 
-          <div className="grid md:grid-cols-2 gap-6 mb-6">
-            {[
-              {
-                number: "01",
-                title: "Oficina de Alfabetização Digital",
-                description: "3 encontros sobre uso básico de celular/internet, segurança e privacidade.",
-              },
-              {
-                number: "02",
-                title: "Sistema de Agenda Comunitária",
-                description: "Desenvolvimento de mini-sistema web para atividades, transporte e eventos locais.",
-              },
-              {
-                number: "03",
-                title: "Treinamento Técnico para Voluntários",
-                description: "Capacitação em manutenção de hardware e soluções digitais para apoio local.",
-              },
-              {
-                number: "04",
-                title: "Conscientização Ambiental e Mobilidade",
-                description: "Campanhas sobre lixo, represa, queimadas, reflorestamento e discussões sobre transporte.",
-              },
-            ].map((activity) => (
-              <div key={activity.number} className="flex items-start space-x-4">
-                <div className="w-10 h-10 bg-secondary text-secondary-foreground rounded-full flex items-center justify-center font-bold flex-shrink-0">
-                  {activity.number}
-                </div>
-                <div>
-                  <h4 className="font-semibold text-primary mb-1">{activity.title}</h4>
-                  <p className="text-sm text-muted-foreground">{activity.description}</p>
-                </div>
+          <div className="relative mb-6">
+            <div className="overflow-x-auto scrollbar-hide pb-4">
+              <div className="grid md:grid-cols-2 gap-6 min-w-[280px]">
+                {[
+                  {
+                    number: "01",
+                    title: "Oficina de Alfabetização Digital",
+                    description: "3 encontros sobre uso básico de celular/internet, segurança e privacidade.",
+                  },
+                  {
+                    number: "02",
+                    title: "Sistema de Agenda Comunitária",
+                    description: "Desenvolvimento de mini-sistema web para atividades, transporte e eventos locais.",
+                  },
+                  {
+                    number: "03",
+                    title: "Treinamento Técnico para Voluntários",
+                    description: "Capacitação em manutenção de hardware e soluções digitais para apoio local.",
+                  },
+                  {
+                    number: "04",
+                    title: "Conscientização Ambiental e Mobilidade",
+                    description: "Campanhas sobre lixo, represa, queimadas, reflorestamento e discussões sobre transporte.",
+                  },
+                ].map((activity) => (
+                  <div key={activity.number} className="flex items-start space-x-4">
+                    <div className="w-10 h-10 bg-secondary text-secondary-foreground rounded-full flex items-center justify-center font-bold flex-shrink-0">
+                      {activity.number}
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-primary mb-1">{activity.title}</h4>
+                      <p className="text-sm text-muted-foreground">{activity.description}</p>
+                    </div>
+                  </div>
+                ))}
               </div>
-            ))}
+            </div>
           </div>
         </Card>
 

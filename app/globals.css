@@ -186,3 +186,13 @@
   transform: translateY(-2px);
   box-shadow: 0 10px 25px -5px rgba(0, 59, 92, 0.1), 0 8px 10px -6px rgba(0, 59, 92, 0.1);
 }
+
+/* Hide scrollbar but keep scrolling functionality */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari and Opera */
+}

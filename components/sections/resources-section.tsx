@@ -90,16 +90,18 @@ export function ResourcesSection() {
           </div>
 
           {/* Timeline */}
-          <div className="flex justify-center mb-8">
-            <div className="flex items-center space-x-4">
-              {[1, 2, 3, 4, 5].map((week) => (
-                <div key={week} className="flex items-center">
-                  <div className="w-10 h-10 bg-primary text-primary-foreground rounded-full flex items-center justify-center font-bold">
-                    {week}
+          <div className="relative mb-8">
+            <div className="overflow-x-auto scrollbar-hide pb-4">
+              <div className="flex items-center justify-center min-w-max px-4">
+                {[1, 2, 3, 4, 5].map((week) => (
+                  <div key={week} className="flex items-center">
+                    <div className="w-10 h-10 bg-primary text-primary-foreground rounded-full flex items-center justify-center font-bold">
+                      {week}
+                    </div>
+                    {week < 5 && <div className="w-8 h-1 bg-secondary mx-2" />}
                   </div>
-                  {week < 5 && <div className="w-8 h-1 bg-secondary mx-2" />}
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
           </div>
         </Card>

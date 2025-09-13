@@ -43,36 +43,38 @@ export function IntroductionSection() {
           </div>
 
           <div className="space-y-6">
-            <div className="grid gap-4">
-              {[
-                {
-                  number: "01",
-                  title: "Conceitos Fundamentais",
-                  description: "Compreensão dos pilares teóricos da disciplina",
-                },
-                {
-                  number: "02",
-                  title: "Seleção da Comunidade",
-                  description: "Identificação e caracterização do público-alvo",
-                },
-                {
-                  number: "03",
-                  title: "Planejamento Inicial",
-                  description: "Estruturação das atividades extensionistas",
-                },
-              ].map((item) => (
-                <Card key={item.number} className="p-4 hover:shadow-md transition-all duration-300 hover:scale-[1.02] group">
-                  <div className="flex items-start space-x-4">
-                    <div className="w-10 h-10 bg-secondary text-secondary-foreground rounded-full flex items-center justify-center font-bold transition-all duration-300 group-hover:scale-110">
-                      {item.number}
+            <div className="grid gap-4 overflow-x-auto scrollbar-hide pb-2">
+              <div className="min-w-[280px]">
+                {[
+                  {
+                    number: "01",
+                    title: "Conceitos Fundamentais",
+                    description: "Compreensão dos pilares teóricos da disciplina",
+                  },
+                  {
+                    number: "02",
+                    title: "Seleção da Comunidade",
+                    description: "Identificação e caracterização do público-alvo",
+                  },
+                  {
+                    number: "03",
+                    title: "Planejamento Inicial",
+                    description: "Estruturação das atividades extensionistas",
+                  },
+                ].map((item) => (
+                  <Card key={item.number} className="p-4 hover:shadow-md transition-all duration-300 hover:scale-[1.02] group mb-4">
+                    <div className="flex items-start space-x-4">
+                      <div className="w-10 h-10 bg-secondary text-secondary-foreground rounded-full flex items-center justify-center font-bold transition-all duration-300 group-hover:scale-110">
+                        {item.number}
+                      </div>
+                      <div>
+                        <h4 className="font-semibold text-primary mb-1">{item.title}</h4>
+                        <p className="text-sm text-muted-foreground">{item.description}</p>
+                      </div>
                     </div>
-                    <div>
-                      <h4 className="font-semibold text-primary mb-1">{item.title}</h4>
-                      <p className="text-sm text-muted-foreground">{item.description}</p>
-                    </div>
-                  </div>
-                </Card>
-              ))}
+                  </Card>
+                ))}
+              </div>
             </div>
 
             <div className="bg-card rounded-lg overflow-hidden hover-pulse">
