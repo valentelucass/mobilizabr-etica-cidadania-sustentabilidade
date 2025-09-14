@@ -4,11 +4,11 @@
  technologies: Next.js, React, TypeScript, Tailwind CSS, Radix UI 
  demo: https://mobilizabr-etica-cidadania-sustenta.vercel.app/ 
  highlight: true 
- image: placeholder.jpg 
+ image: foto.png 
  --> 
 
 <p align="center"> 
-  <img src="public/placeholder.jpg" alt="Capa do projeto" width="1200"> 
+  <img src="foto.png" alt="Capa do projeto" width="1200"> 
 </p>
 
 # Ética, Cidadania e Sustentabilidade - MobilizaBR
