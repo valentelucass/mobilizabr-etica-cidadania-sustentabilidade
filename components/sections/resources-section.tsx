@@ -5,7 +5,7 @@ export function ResourcesSection() {
   return (
     <section id="resources" className="py-16 bg-card/50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-primary">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-primary transition-all duration-300 hover:scale-105 hover:text-secondary">
           Recursos Tecnológicos e Cronograma Detalhado
         </h2>
 

@@ -5,7 +5,7 @@ export function ConclusionSection() {
   return (
     <section id="conclusion" className="py-16 bg-background">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-primary">Considerações Finais</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-primary transition-all duration-300 hover:scale-105 hover:text-secondary">Considerações Finais</h2>
 
         <h3 className="text-2xl font-semibold mb-8 text-center text-primary">Compromissos do grupo</h3>
 
@@ -53,17 +53,17 @@ export function ConclusionSection() {
           <Card className="p-6">
             <h3 className="text-xl font-semibold mb-4 text-primary">Referências</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li>• Web-aulas e textos da disciplina – Prof. Marcela Bauer (AVA)</li>
-              <li>• ACM Code of Ethics and Professional Conduct</li>
-              <li>• IEEE/ACM Software Engineering Code of Ethics and Professional Conduct</li>
-              <li>• Materiais de extensão universitária do curso</li>
+              <li className="transition-all duration-300 hover:translate-x-1 hover:text-primary">• Web-aulas e textos da disciplina – Prof. Marcela Bauer (AVA)</li>
+              <li className="transition-all duration-300 hover:translate-x-1 hover:text-primary">• ACM Code of Ethics and Professional Conduct</li>
+              <li className="transition-all duration-300 hover:translate-x-1 hover:text-primary">• IEEE/ACM Software Engineering Code of Ethics and Professional Conduct</li>
+              <li className="transition-all duration-300 hover:translate-x-1 hover:text-primary">• Materiais de extensão universitária do curso</li>
             </ul>
           </Card>
         </div>
 
         <Card className="p-4 bg-chart-5/10 border-chart-5/20 mb-8">
           <div className="flex items-center">
-            <CheckCircle className="h-5 w-5 text-chart-5 mr-3 flex-shrink-0" />
+            <CheckCircle className="h-5 w-5 text-chart-5 mr-3 flex-shrink-0 transition-all duration-300 hover:scale-110 hover:text-secondary" />
             <p className="text-sm text-muted-foreground">
               <strong>Observação:</strong> As referências específicas indicadas nas web-aulas da professora serão
               adicionadas conforme aparecem no AVA.

@@ -5,7 +5,7 @@ export function IntroductionSection() {
   return (
     <section id="introduction" className="py-16 bg-background">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-primary">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-primary transition-all duration-300 hover:scale-105 hover:text-secondary">
           Introdução e Objetivos da Etapa 1
         </h2>
 
@@ -35,7 +35,7 @@ export function IntroductionSection() {
                 <h3 className="text-xl font-semibold text-primary">Resumo do que entregamos</h3>
               </div>
               <ul className="space-y-2 text-muted-foreground">
-                <li>• Apresentação com capa</li>
+                <li>• Apresentação em site</li>
                 <li>• Respostas sobre Ética, Extensão e Comunidade</li>
                 <li>• Caracterização da comunidade escolhida</li>
               </ul>

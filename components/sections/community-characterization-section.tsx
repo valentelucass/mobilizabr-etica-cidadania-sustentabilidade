@@ -5,7 +5,7 @@ export function CommunityCharacterizationSection() {
   return (
     <section id="characterization" className="py-16 bg-card/50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-primary">Caracterização da Comunidade</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-primary transition-all duration-300 hover:scale-105 hover:text-secondary">Caracterização da Comunidade</h2>
 
         <Card className="p-6 mb-8">
           <div className="flex items-center mb-4">
@@ -39,7 +39,7 @@ export function CommunityCharacterizationSection() {
           <img
             src="/cena-de-bairro-com--nibus--lixo-e-polui--o.jpg"
             alt="Cena de bairro com ônibus, lixo e poluição"
-            className="w-full h-64 object-cover"
+            className="w-full h-64 object-cover transition-all duration-500 hover:scale-105"
           />
         </div>
       </div>

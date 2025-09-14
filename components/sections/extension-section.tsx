@@ -5,7 +5,7 @@ export function ExtensionSection() {
   return (
     <section id="extension" className="py-16 bg-background">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-primary">Extensão e Construção Social</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-primary transition-all duration-300 hover:scale-105 hover:text-secondary">Extensão e Construção Social</h2>
 
         <Card className="p-6 mb-8 bg-secondary/10 border-secondary/20">
           <h3 className="text-xl font-semibold mb-4 text-primary">Questão 2</h3>

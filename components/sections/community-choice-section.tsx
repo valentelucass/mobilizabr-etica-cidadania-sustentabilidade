@@ -5,7 +5,7 @@ export function CommunityChoiceSection() {
   return (
     <section id="community-choice" className="py-16 bg-background">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-primary">Comunidade Escolhida</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-primary transition-all duration-300 hover:scale-105 hover:text-secondary">Comunidade Escolhida</h2>
 
         <Card className="p-6 mb-8 bg-secondary/10 border-secondary/20">
           <h3 className="text-xl font-semibold mb-4 text-primary">Questões 2 e 3</h3>
@@ -14,7 +14,7 @@ export function CommunityChoiceSection() {
           </p>
 
           <div className="text-center">
-            <h2 className="text-2xl font-bold text-primary mb-2">Bairro de Varginha</h2>
+            <h2 className="text-2xl font-bold text-primary mb-2">Bairro de Vargem Grande (Varginha)</h2>
             <p className="text-muted-foreground">Comunidade local</p>
           </div>
         </Card>

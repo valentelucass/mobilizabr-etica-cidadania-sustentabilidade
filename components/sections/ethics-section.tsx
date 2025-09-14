@@ -5,7 +5,7 @@ export function EthicsSection() {
   return (
     <section id="ethics" className="py-16 bg-card/50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-primary">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-primary transition-all duration-300 hover:scale-105 hover:text-secondary">
           Ética na Análise e Desenvolvimento de Sistemas
         </h2>
 
@@ -73,7 +73,7 @@ export function EthicsSection() {
 
         <Card className="p-4 bg-primary/5 border-primary/20">
           <div className="flex items-center">
-            <BookOpen className="h-5 w-5 text-primary mr-3" />
+            <BookOpen className="h-5 w-5 text-primary mr-3 transition-all duration-300 hover:scale-110 hover:text-secondary" />
             <p className="text-sm text-muted-foreground">
               <strong>Referências:</strong> ACM Code of Ethics and Professional Conduct, IEEE/ACM Software Engineering
               Code of Ethics, Web-aulas e textos da disciplina (Prof. Marcela Bauer, AVA)

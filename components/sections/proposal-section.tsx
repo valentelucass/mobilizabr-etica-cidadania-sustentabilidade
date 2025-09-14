@@ -4,7 +4,7 @@ export function ProposalSection() {
   return (
     <section id="proposal" className="py-16 bg-background">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-primary">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-primary transition-all duration-300 hover:scale-105 hover:text-secondary">
           Justificativa e Proposta Inicial
         </h2>
 
@@ -73,8 +73,8 @@ export function ProposalSection() {
                     description: "Campanhas sobre lixo, represa, queimadas, reflorestamento e discussões sobre transporte.",
                   },
                 ].map((activity) => (
-                  <div key={activity.number} className="flex items-start space-x-4">
-                    <div className="w-10 h-10 bg-secondary text-secondary-foreground rounded-full flex items-center justify-center font-bold flex-shrink-0">
+                  <div key={activity.number} className="flex items-start space-x-4 group">
+                    <div className="w-10 h-10 bg-secondary text-secondary-foreground rounded-full flex items-center justify-center font-bold flex-shrink-0 transition-all duration-300 group-hover:scale-110 group-hover:rotate-3 group-hover:shadow-md">
                       {activity.number}
                     </div>
                     <div>
@@ -91,9 +91,9 @@ export function ProposalSection() {
         <Card className="p-6">
           <h3 className="text-xl font-semibold mb-4 text-primary">Impacto Esperado</h3>
           <ul className="space-y-2 text-muted-foreground">
-            <li>• Moradores capacitados digital e ambientalmente.</li>
-            <li>• Protótipo funcional de sistema de agenda comunitária.</li>
-            <li>• Maior engajamento social em meio ambiente, mobilidade e economia local.</li>
+            <li className="transition-all duration-300 hover:translate-x-1 hover:text-primary">• Moradores capacitados digital e ambientalmente.</li>
+            <li className="transition-all duration-300 hover:translate-x-1 hover:text-primary">• Protótipo funcional de sistema de agenda comunitária.</li>
+            <li className="transition-all duration-300 hover:translate-x-1 hover:text-primary">• Maior engajamento social em meio ambiente, mobilidade e economia local.</li>
           </ul>
         </Card>
       </div>

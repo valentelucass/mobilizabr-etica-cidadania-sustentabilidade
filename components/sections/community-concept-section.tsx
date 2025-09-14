@@ -4,7 +4,7 @@ export function CommunityConceptSection() {
   return (
     <section id="community-concept" className="py-16 bg-card/50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-primary">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-primary transition-all duration-300 hover:scale-105 hover:text-secondary">
           Conceito de Comunidade na Extensão
         </h2>
 
@@ -18,7 +18,7 @@ export function CommunityConceptSection() {
             <img
               src="/grupo-de-pessoas-em-discuss-o-ao-redor-de-uma-mesa.jpg"
               alt="Grupo de pessoas em discussão ao redor de uma mesa"
-              className="w-full h-64 object-cover"
+              className="w-full h-64 object-cover transition-all duration-500 hover:scale-105"
             />
           </div>
 
