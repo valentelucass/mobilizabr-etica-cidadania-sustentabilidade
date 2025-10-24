@@ -1,0 +1,65 @@
+<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:0.2" />
+    </linearGradient>
+    <linearGradient id="university" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#34d399" />
+      <stop offset="100%" style="stop-color:#10b981" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="300" fill="url(#bg2)"/>
+  
+  <!-- University building -->
+  <rect x="200" y="100" width="200" height="120" fill="url(#university)" rx="5"/>
+  <polygon points="200,100 300,50 400,100" fill="#059669"/>
+  
+  <!-- Columns -->
+  <rect x="220" y="120" width="15" height="100" fill="#047857"/>
+  <rect x="250" y="120" width="15" height="100" fill="#047857"/>
+  <rect x="280" y="120" width="15" height="100" fill="#047857"/>
+  <rect x="310" y="120" width="15" height="100" fill="#047857"/>
+  <rect x="340" y="120" width="15" height="100" fill="#047857"/>
+  <rect x="370" y="120" width="15" height="100" fill="#047857"/>
+  
+  <!-- Door -->
+  <rect x="285" y="180" width="30" height="40" fill="#1f2937" rx="15"/>
+  
+  <!-- Community connections -->
+  <circle cx="100" cy="200" r="25" fill="#f59e0b" opacity="0.8"/>
+  <text x="100" y="205" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">COM</text>
+  
+  <circle cx="500" cy="180" r="25" fill="#ef4444" opacity="0.8"/>
+  <text x="500" y="185" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">SOC</text>
+  
+  <!-- Connection arrows -->
+  <path d="M 125 200 Q 162 180 200 160" stroke="#6b7280" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 400 160 Q 450 170 475 180" stroke="#6b7280" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#6b7280"/>
+    </marker>
+  </defs>
+  
+  <!-- Students/people -->
+  <circle cx="250" cy="240" r="8" fill="#3b82f6"/>
+  <circle cx="280" cy="240" r="8" fill="#8b5cf6"/>
+  <circle cx="310" cy="240" r="8" fill="#f59e0b"/>
+  <circle cx="340" cy="240" r="8" fill="#ef4444"/>
+  
+  <!-- Knowledge transfer symbols -->
+  <rect x="150" y="120" width="30" height="20" fill="#fbbf24" opacity="0.7" rx="3"/>
+  <text x="165" y="133" text-anchor="middle" fill="#1f2937" font-family="Arial, sans-serif" font-size="10">TECH</text>
+  
+  <rect x="420" y="140" width="30" height="20" fill="#34d399" opacity="0.7" rx="3"/>
+  <text x="435" y="153" text-anchor="middle" fill="#1f2937" font-family="Arial, sans-serif" font-size="10">HELP</text>
+  
+  <!-- Title -->
+  <text x="300" y="30" text-anchor="middle" fill="#1f2937" font-family="Arial, sans-serif" font-size="24" font-weight="bold">Extensão Universitária</text>
+  <text x="300" y="50" text-anchor="middle" fill="#6b7280" font-family="Arial, sans-serif" font-size="14">Conectando Universidade e Sociedade</text>
+</svg>

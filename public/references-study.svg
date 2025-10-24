@@ -1,0 +1,69 @@
+<svg width="500" height="250" viewBox="0 0 500 250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#d97706;stop-opacity:0.2" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="250" fill="url(#bg4)"/>
+  
+  <!-- Books stack -->
+  <rect x="100" y="150" width="80" height="12" fill="#ef4444" rx="2"/>
+  <rect x="105" y="140" width="75" height="12" fill="#3b82f6" rx="2"/>
+  <rect x="110" y="130" width="70" height="12" fill="#10b981" rx="2"/>
+  <rect x="115" y="120" width="65" height="12" fill="#8b5cf6" rx="2"/>
+  
+  <!-- Open book -->
+  <path d="M 220 140 Q 250 120 280 140 L 280 180 Q 250 160 220 180 Z" fill="#fbbf24"/>
+  <path d="M 280 140 Q 310 120 340 140 L 340 180 Q 310 160 280 180 Z" fill="#f59e0b"/>
+  <line x1="280" y1="140" x2="280" y2="180" stroke="#d97706" stroke-width="2"/>
+  
+  <!-- Text lines on open book -->
+  <line x1="230" y1="150" x2="270" y2="150" stroke="#1f2937" stroke-width="1"/>
+  <line x1="230" y1="160" x2="265" y2="160" stroke="#1f2937" stroke-width="1"/>
+  <line x1="230" y1="170" x2="270" y2="170" stroke="#1f2937" stroke-width="1"/>
+  
+  <line x1="290" y1="150" x2="330" y2="150" stroke="#1f2937" stroke-width="1"/>
+  <line x1="290" y1="160" x2="325" y2="160" stroke="#1f2937" stroke-width="1"/>
+  <line x1="290" y1="170" x2="330" y2="170" stroke="#1f2937" stroke-width="1"/>
+  
+  <!-- Computer/laptop -->
+  <rect x="360" y="140" width="60" height="40" fill="#374151" rx="3"/>
+  <rect x="365" y="145" width="50" height="30" fill="#1f2937" rx="2"/>
+  <rect x="370" y="150" width="40" height="20" fill="#3b82f6" opacity="0.8"/>
+  <rect x="385" y="180" width="10" height="5" fill="#6b7280" rx="1"/>
+  
+  <!-- Screen content -->
+  <circle cx="380" cy="160" r="3" fill="#10b981"/>
+  <rect x="385" y="157" width="20" height="2" fill="#fbbf24"/>
+  <rect x="385" y="161" width="15" height="2" fill="#ef4444"/>
+  <rect x="385" y="165" width="18" height="2" fill="#8b5cf6"/>
+  
+  <!-- Document icons -->
+  <rect x="50" y="80" width="30" height="40" fill="white" stroke="#d1d5db" stroke-width="2" rx="2"/>
+  <rect x="55" y="90" width="20" height="2" fill="#6b7280"/>
+  <rect x="55" y="95" width="15" height="2" fill="#6b7280"/>
+  <rect x="55" y="100" width="18" height="2" fill="#6b7280"/>
+  <rect x="55" y="105" width="12" height="2" fill="#6b7280"/>
+  
+  <rect x="90" y="85" width="30" height="40" fill="white" stroke="#d1d5db" stroke-width="2" rx="2"/>
+  <rect x="95" y="95" width="20" height="2" fill="#6b7280"/>
+  <rect x="95" y="100" width="15" height="2" fill="#6b7280"/>
+  <rect x="95" y="105" width="18" height="2" fill="#6b7280"/>
+  <rect x="95" y="110" width="12" height="2" fill="#6b7280"/>
+  
+  <!-- Ethics symbol -->
+  <circle cx="400" cy="80" r="25" fill="#3b82f6" opacity="0.2"/>
+  <path d="M 385 80 L 395 90 L 415 70" stroke="#3b82f6" stroke-width="3" fill="none"/>
+  <circle cx="400" cy="80" r="20" stroke="#3b82f6" stroke-width="2" fill="none"/>
+  
+  <!-- Connection lines -->
+  <path d="M 180 135 Q 200 125 220 135" stroke="#6b7280" stroke-width="2" fill="none" stroke-dasharray="3,3"/>
+  <path d="M 340 150 Q 350 145 360 150" stroke="#6b7280" stroke-width="2" fill="none" stroke-dasharray="3,3"/>
+  
+  <!-- Title -->
+  <text x="250" y="30" text-anchor="middle" fill="#1f2937" font-family="Arial, sans-serif" font-size="20" font-weight="bold">Referências Bibliográficas</text>
+  <text x="250" y="50" text-anchor="middle" fill="#6b7280" font-family="Arial, sans-serif" font-size="12">Materiais de Estudo e Pesquisa</text>
+</svg>

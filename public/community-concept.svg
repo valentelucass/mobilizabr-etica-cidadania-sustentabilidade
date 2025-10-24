@@ -1,0 +1,146 @@
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8fafc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="universityGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="communityGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="400" fill="url(#bgGradient)"/>
+  
+  <!-- University building -->
+  <g transform="translate(80, 120)">
+    <!-- Main building -->
+    <rect x="0" y="40" width="120" height="80" fill="url(#universityGradient)" rx="4"/>
+    <!-- Roof -->
+    <polygon points="0,40 60,10 120,40" fill="#1e40af"/>
+    <!-- Windows -->
+    <rect x="15" y="55" width="15" height="15" fill="#dbeafe" rx="2"/>
+    <rect x="35" y="55" width="15" height="15" fill="#dbeafe" rx="2"/>
+    <rect x="70" y="55" width="15" height="15" fill="#dbeafe" rx="2"/>
+    <rect x="90" y="55" width="15" height="15" fill="#dbeafe" rx="2"/>
+    <rect x="15" y="85" width="15" height="15" fill="#dbeafe" rx="2"/>
+    <rect x="35" y="85" width="15" height="15" fill="#dbeafe" rx="2"/>
+    <rect x="70" y="85" width="15" height="15" fill="#dbeafe" rx="2"/>
+    <rect x="90" y="85" width="15" height="15" fill="#dbeafe" rx="2"/>
+    <!-- Door -->
+    <rect x="52" y="95" width="16" height="25" fill="#1e40af" rx="2"/>
+    <!-- Flag -->
+    <rect x="55" y="15" width="2" height="25" fill="#374151"/>
+    <rect x="57" y="15" width="20" height="12" fill="#ef4444"/>
+  </g>
+  
+  <!-- Community houses -->
+  <g transform="translate(350, 150)">
+    <!-- House 1 -->
+    <rect x="0" y="30" width="40" height="40" fill="url(#communityGradient)" rx="2"/>
+    <polygon points="0,30 20,10 40,30" fill="#047857"/>
+    <rect x="8" y="40" width="8" height="8" fill="#dcfce7" rx="1"/>
+    <rect x="24" y="40" width="8" height="8" fill="#dcfce7" rx="1"/>
+    <rect x="15" y="55" width="10" height="15" fill="#047857" rx="1"/>
+    
+    <!-- House 2 -->
+    <rect x="50" y="25" width="45" height="45" fill="url(#communityGradient)" rx="2"/>
+    <polygon points="50,25 72.5,5 95,25" fill="#047857"/>
+    <rect x="58" y="35" width="8" height="8" fill="#dcfce7" rx="1"/>
+    <rect x="79" y="35" width="8" height="8" fill="#dcfce7" rx="1"/>
+    <rect x="58" y="50" width="8" height="8" fill="#dcfce7" rx="1"/>
+    <rect x="79" y="50" width="8" height="8" fill="#dcfce7" rx="1"/>
+    <rect x="68" y="55" width="12" height="15" fill="#047857" rx="1"/>
+    
+    <!-- House 3 -->
+    <rect x="105" y="35" width="35" height="35" fill="url(#communityGradient)" rx="2"/>
+    <polygon points="105,35 122.5,15 140,35" fill="#047857"/>
+    <rect x="112" y="45" width="6" height="6" fill="#dcfce7" rx="1"/>
+    <rect x="125" y="45" width="6" height="6" fill="#dcfce7" rx="1"/>
+    <rect x="117" y="58" width="8" height="12" fill="#047857" rx="1"/>
+  </g>
+  
+  <!-- People icons representing community -->
+  <g transform="translate(250, 200)">
+    <!-- Person 1 -->
+    <circle cx="20" cy="15" r="8" fill="#6366f1"/>
+    <rect x="12" y="23" width="16" height="20" fill="#6366f1" rx="8"/>
+    
+    <!-- Person 2 -->
+    <circle cx="50" cy="15" r="8" fill="#10b981"/>
+    <rect x="42" y="23" width="16" height="20" fill="#10b981" rx="8"/>
+    
+    <!-- Person 3 -->
+    <circle cx="80" cy="15" r="8" fill="#f59e0b"/>
+    <rect x="72" y="23" width="16" height="20" fill="#f59e0b" rx="8"/>
+    
+    <!-- Person 4 -->
+    <circle cx="35" cy="45" r="8" fill="#ef4444"/>
+    <rect x="27" y="53" width="16" height="20" fill="#ef4444" rx="8"/>
+    
+    <!-- Person 5 -->
+    <circle cx="65" cy="45" r="8" fill="#8b5cf6"/>
+    <rect x="57" y="53" width="16" height="20" fill="#8b5cf6" rx="8"/>
+  </g>
+  
+  <!-- Connection lines between university and community -->
+  <g stroke="#64748b" stroke-width="2" stroke-dasharray="5,5" fill="none">
+    <path d="M 200 160 Q 275 140 350 180"/>
+    <path d="M 200 180 Q 275 200 350 200"/>
+    <path d="M 200 200 Q 275 220 350 220"/>
+  </g>
+  
+  <!-- Knowledge exchange symbols -->
+  <g transform="translate(270, 160)">
+    <!-- Book icon -->
+    <rect x="0" y="0" width="12" height="8" fill="#3b82f6" rx="1"/>
+    <rect x="1" y="1" width="10" height="6" fill="#dbeafe" rx="0.5"/>
+    <line x1="3" y1="3" x2="9" y2="3" stroke="#3b82f6" stroke-width="0.5"/>
+    <line x1="3" y1="5" x2="9" y2="5" stroke="#3b82f6" stroke-width="0.5"/>
+    
+    <!-- Lightbulb icon -->
+    <g transform="translate(20, -5)">
+      <circle cx="6" cy="8" r="4" fill="#f59e0b"/>
+      <rect x="4" y="12" width="4" height="3" fill="#d97706" rx="1"/>
+      <line x1="6" y1="2" x2="6" y2="4" stroke="#f59e0b" stroke-width="1"/>
+      <line x1="10" y1="4" x2="9" y2="5" stroke="#f59e0b" stroke-width="1"/>
+      <line x1="10" y1="12" x2="9" y2="11" stroke="#f59e0b" stroke-width="1"/>
+      <line x1="2" y1="4" x2="3" y2="5" stroke="#f59e0b" stroke-width="1"/>
+      <line x1="2" y1="12" x2="3" y2="11" stroke="#f59e0b" stroke-width="1"/>
+    </g>
+    
+    <!-- Heart icon -->
+    <g transform="translate(40, 0)">
+      <path d="M6,12 C6,12 2,8 2,5 C2,3 4,2 6,4 C8,2 10,3 10,5 C10,8 6,12 6,12 Z" fill="#ef4444"/>
+    </g>
+  </g>
+  
+  <!-- Title -->
+  <text x="300" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1e293b">
+    Conceito de Comunidade
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="300" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#64748b">
+    Extensão Universitária e Interação Social
+  </text>
+  
+  <!-- Labels -->
+  <text x="140" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1e40af">
+    Universidade
+  </text>
+  
+  <text x="425" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#047857">
+    Comunidade
+  </text>
+  
+  <text x="300" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#64748b">
+    Troca de Saberes
+  </text>
+</svg>
