@@ -104,7 +104,6 @@ export default function Etapa2() {
                             "Christian Felix Leite",
                             "Matheus Fleckenstein Paina",
                             "Pedro Gabriel de Oliveira Pinheiro",
-                            "Gabriel Galdino Andrade",
                             "David Henrique Carvalho de Matos",
                             "Matheus Lima Viana",
                             "Ramone Oliveira Campos"
@@ -609,12 +608,12 @@ export default function Etapa2() {
                                 <div className="bg-blue-50 border-l-4 border-l-blue-500 p-6 rounded-lg">
                                     <h4 className="font-semibold mb-3 text-blue-800">Validação da Demanda:</h4>
                                     <p className="text-blue-700 leading-relaxed">
-                                        A demanda foi validada por meio de uma <strong>pesquisa comunitária</strong> 
-                                        conduzida por um <strong>morador local</strong>, que realizou entrevistas e 
+                                        A demanda foi validada por meio de uma <strong> pesquisa comunitária</strong> 
+                                        conduzida por um <strong> morador local</strong>, que realizou entrevistas e 
                                         levantamentos diretamente com os residentes da região. O resultado apontou que 
-                                        <strong>89% dos participantes (42 moradores)</strong> consideram que uma 
-                                        <strong>plataforma digital comunitária</strong> com essas características 
-                                        atenderia suas principais necessidades, <strong>melhorando a comunicação, 
+                                        <strong> 89% dos participantes (42 moradores)</strong> consideram que uma 
+                                        <strong> plataforma digital comunitária</strong> com essas características 
+                                        atenderia suas principais necessidades, <strong> melhorando a comunicação, 
                                             a organização e a participação cidadã</strong> na comunidade.
                                     </p>
                                 </div>
