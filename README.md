@@ -1,18 +1,14 @@
-<!-- PORTFOLIO-FEATURED 
- title: Ética, Cidadania e Sustentabilidade 
- description: Site desenvolvido para a disciplina de Ética, Cidadania e Sustentabilidade, apresentando o trabalho do grupo MobilizaBR sobre temas relacionados à ética, cidadania e sustentabilidade em comunidades. 
- technologies: Next.js, React, TypeScript, Tailwind CSS, Radix UI 
- demo: https://mobilizabr-etica-cidadania-sustenta.vercel.app/ 
- highlight: true 
-<<<<<<< HEAD
- image: foto.png
-=======
- image: foto.png 
->>>>>>> 3d542ac03eb7973d5959dccb3043e14c49acdff3
- --> 
+<!-- PORTFOLIO-FEATURED
+title: Ética, Cidadania e Sustentabilidade — MobilizaBR
+description: Site desenvolvido para a disciplina de Ética, Cidadania e Sustentabilidade, apresentando o trabalho do grupo MobilizaBR sobre ética, cidadania e sustentabilidade em comunidades.
+technologies: Next.js, React, TypeScript, Tailwind CSS, Radix UI
+demo: https://mobilizabr-etica-cidadania-sustenta.vercel.app/
+highlight: true
+image: public/foto1.png
+-->
 
 <p align="center"> 
-  <img src="foto.png" alt="Capa do projeto" width="1200"> 
+  <img src="public/foto1.png" alt="Capa do projeto" width="1200"> 
 </p>
 
 # Ética, Cidadania e Sustentabilidade - MobilizaBR
