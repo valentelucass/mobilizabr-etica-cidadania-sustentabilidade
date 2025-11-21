@@ -4,11 +4,11 @@ description: Site desenvolvido para a disciplina de Ética, Cidadania e Sustenta
 technologies: Next.js, React, TypeScript, Tailwind CSS, Radix UI
 demo: https://mobilizabr-etica-cidadania-sustenta.vercel.app/
 highlight: true
-image: public/foto1.png
+image: public/foto.png
 -->
 
 <p align="center"> 
-  <img src="public/foto1.png" alt="Capa do projeto" width="1200"> 
+  <img src="public/foto.png" alt="Capa do projeto" width="1200"> 
 </p>
 
 # Ética, Cidadania e Sustentabilidade - MobilizaBR
